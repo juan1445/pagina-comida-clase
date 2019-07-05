@@ -1,0 +1,65 @@
+.daniela{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.daniela .grid-item{
+    width: 300px;
+    height: 300px;
+}
+
+form{
+    text-align: center;
+    width: 100%;
+}
+
+form input{
+    padding: 20px 40px 20px 40px;
+}
+
+form button{
+    padding: 20px 80px 20px 20px;
+    font-size: 1em;
+    background-color: #f98068;
+    box-shadow: 1px 2px 15px #f98068;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+}
+
+footer{
+    margin-top: 100px;
+    background-image: url(home);
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+footer nav ul a{
+    display: inline;
+    vertical-align: top;
+    text-decoration: none;
+    color: gray;
+    text-align: center;
+}
+
+.title-form{
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 50px;
+}
+
+.logo-footer{
+    width: 90%;
+}
+
+.logo-footer img {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+
+footer nav{
+    display: inline-block;
+    vertical-align: bottom;
+}

@@ -1,0 +1,167 @@
+.grid-container{
+    display: grid; 
+    grid-template-columns: auto auto;
+    padding: 50px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.grid-container-3{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 50px;
+    text-align: left;
+    font-size: 1.3em;
+}
+
+.grid-container-3 button{
+    padding: 20px;
+    font-size: 1em;
+    background-color: #f98068;
+    box-shadow: 1px 2px 15px #f98068;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.grid-item-img{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.grid-item-img .img1{
+    width: 200px;
+    border-radius: 10%;
+    margin-top: 125px;
+    margin-left: 95px;
+    margin-bottom: 5px;
+}
+
+.grid-item-img .img2{
+    width: 300px;
+    border-radius: 10%;
+}
+
+.grid-item-img .img3{
+    width: 300px;
+    border-radius: 10%;
+    margin-bottom: 80px;
+}
+
+.grid-item-img .img4{
+    width: 200px;
+    border-radius: 10%;
+    margin-top: -75px;
+}
+
+.grid-item{
+    padding: 10px;
+}
+
+.grid-item-2{
+    margin-top: 100px;
+    font-size: 1.2em;
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.grid-item-3{
+    font-size: 1.2em;
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.grid-item-2 p{
+    font-size: 1em;
+    color: #9c9f9f;
+}
+
+.grid-item-3 p{
+    font-size: 1em;
+    color: #9c9f9f;
+}
+
+
+.grid-container .costi{
+    width: 400px;
+    border-radius: 150px 0 150px 0;
+    box-shadow: 5px 20px 30px -15px #888888;
+    border-color: none;
+}
+
+.grid-container button{
+    padding: 20px;
+    font-size: 1em;
+    background-color: #f98068;
+    box-shadow: 1px 2px 15px #f98068;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.video-home{
+    width: 90%;
+    height: 600px;
+    background-image: url(comida.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5%;
+    text-align: center;
+    font-size: 1.4em;
+    color: #ffffff;
+    margin:0 auto;
+}
+
+.contenedor-video{
+    padding-top: 150px;
+    background-color: rgba(0, 60, 115, 0.5);
+    border-radius: 5%;
+    height: 450px;
+}
+
+.video-home button{
+    border-radius: 50%;
+    background-color: transparent;
+    padding: 20px;
+    border-color: #ffffff;
+    border-style: solid;
+    border-width: 4px;
+    cursor: pointer;
+}
+
+.video-home button i{
+    width: 7px;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:768px){
+    .grid-container-3{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .grid-container{
+        display: grid; 
+        grid-template-columns: auto;
+    }
+    
+}
+
+@media screen and (max-width:600px){
+    .grid-container-3{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .grid-container{
+        display: grid; 
+        grid-template-columns: auto;
+    }
+}
+

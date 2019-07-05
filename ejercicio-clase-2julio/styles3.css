@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+ 
+    }
+
+.contenedor1{
+    background-image: url(home);
+    background-repeat: no-repeat;
+}
+
+.logo{
+    text-align: left;
+    margin-left: 100px;
+    padding-top: 20px;
+}
+
+.logo img{
+    margin-top: 50px;
+}
+
+.menu-principal nav ul{
+    display: inline;
+    vertical-align: top;
+}
+
+.menu-principal nav{
+    margin-top: -30px;
+}
+
+
+.menu-principal{
+ margin-left: 100px;
+ padding: 20px;
+ color: rgb(113, 113, 138);
+ font-weight: bold;  
+ height: 850px;
+ position: left top;
+ }
+
+.menu-principal a{
+    color: gray;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 1em;    
+}
+
+.menu-principal a{
+    color: gray;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 1em;    
+}
+
+
+.menu-principal nav{
+    text-align: center;
+    padding-right: 250px;
+      
+}
+
+nav ul li {
+    display: inline-block;    
+     
+ }
+ 
+ 
+ .texto{
+    margin-top: 200px;
+}
+
+ .texto h1{
+    font-size: 4.5em;
+    color: rgb(113, 113, 138);
+    font-weight: 100;
+ }
+
+ .texto h2{
+    font-size: 1.1em;
+    color: rgb(113, 113, 138);
+    font-weight: 100;
+ }
+
+.texto button{
+
+    color: white;
+    text-decoration: none;
+    padding: 20px 30px 20px 30px;
+    font-weight: 600;
+    font-size: 20px;    
+    background-color: #f98068;   
+    display: inline-block;    
+    box-shadow: 0px 5px 15px 0px #f98068;
+    border: #f98068;
+}
+ 
+
+.boton p{
+
+    display: inline-block;
+    padding: 20px;
+}
+
+.boton2{
+
+    border-radius: 30px;
+    
+}
+
